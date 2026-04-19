@@ -1,0 +1,3455 @@
+{
+  "min_support": 0.03,
+  "min_confidence": 0.15,
+  "item_frequencies": {
+    "Banana": 26,
+    "Milk": 63,
+    "Paneer": 20,
+    "Dishwash": 19,
+    "Potato": 29,
+    "Ghee": 13,
+    "Sugar": 36,
+    "Wheat Flour": 26,
+    "Detergent": 22,
+    "Floor Cleaner": 22,
+    "Rice": 25,
+    "Cooking Oil": 33,
+    "Curd": 21,
+    "Bread": 48,
+    "Biscuits": 38,
+    "Cheese": 19,
+    "Chips": 35,
+    "Soft Drinks": 33,
+    "Namkeen": 33,
+    "Tea": 28,
+    "Dal": 25,
+    "Onion": 37,
+    "Chocolates": 23,
+    "Apple": 24,
+    "Butter": 21,
+    "Toothpaste": 29,
+    "Coffee": 20,
+    "Eggs": 44,
+    "Tomato": 47,
+    "Deodorant": 7,
+    "Cookies": 22,
+    "Shampoo": 20,
+    "Soap": 19,
+    "Popcorn": 14,
+    "Mineral Water": 24,
+    "Rusk": 10,
+    "Juice": 14,
+    "Face Wash": 9,
+    "Cake": 9,
+    "Salt": 7,
+    "Toilet Cleaner": 6,
+    "Candy": 10,
+    "Energy Drink": 4
+  },
+  "transactions_count": 200,
+  "rules": [
+    {
+      "antecedents": [
+        "Floor Cleaner"
+      ],
+      "consequents": [
+        "Detergent"
+      ],
+      "support": 0.065,
+      "confidence": 0.5909090909090909,
+      "lift": 5.371900826446281
+    },
+    {
+      "antecedents": [
+        "Detergent"
+      ],
+      "consequents": [
+        "Floor Cleaner"
+      ],
+      "support": 0.065,
+      "confidence": 0.5909090909090909,
+      "lift": 5.371900826446281
+    },
+    {
+      "antecedents": [
+        "Dal"
+      ],
+      "consequents": [
+        "Tomato",
+        "Rice"
+      ],
+      "support": 0.03,
+      "confidence": 0.24,
+      "lift": 5.333333333333333
+    },
+    {
+      "antecedents": [
+        "Tomato",
+        "Rice"
+      ],
+      "consequents": [
+        "Dal"
+      ],
+      "support": 0.03,
+      "confidence": 0.6666666666666666,
+      "lift": 5.333333333333333
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Dal",
+        "Onion"
+      ],
+      "support": 0.03,
+      "confidence": 0.24,
+      "lift": 5.333333333333333
+    },
+    {
+      "antecedents": [
+        "Dal",
+        "Onion"
+      ],
+      "consequents": [
+        "Rice"
+      ],
+      "support": 0.03,
+      "confidence": 0.6666666666666666,
+      "lift": 5.333333333333333
+    },
+    {
+      "antecedents": [
+        "Dal"
+      ],
+      "consequents": [
+        "Rice",
+        "Onion"
+      ],
+      "support": 0.03,
+      "confidence": 0.24,
+      "lift": 4.8
+    },
+    {
+      "antecedents": [
+        "Rice",
+        "Onion"
+      ],
+      "consequents": [
+        "Dal"
+      ],
+      "support": 0.03,
+      "confidence": 0.6,
+      "lift": 4.8
+    },
+    {
+      "antecedents": [
+        "Soap"
+      ],
+      "consequents": [
+        "Shampoo"
+      ],
+      "support": 0.045,
+      "confidence": 0.47368421052631576,
+      "lift": 4.7368421052631575
+    },
+    {
+      "antecedents": [
+        "Shampoo"
+      ],
+      "consequents": [
+        "Soap"
+      ],
+      "support": 0.045,
+      "confidence": 0.44999999999999996,
+      "lift": 4.7368421052631575
+    },
+    {
+      "antecedents": [
+        "Butter"
+      ],
+      "consequents": [
+        "Bread",
+        "Eggs"
+      ],
+      "support": 0.04,
+      "confidence": 0.380952380952381,
+      "lift": 4.481792717086835
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Eggs"
+      ],
+      "consequents": [
+        "Butter"
+      ],
+      "support": 0.04,
+      "confidence": 0.47058823529411764,
+      "lift": 4.481792717086835
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Dal",
+        "Tomato"
+      ],
+      "support": 0.03,
+      "confidence": 0.24,
+      "lift": 4.363636363636363
+    },
+    {
+      "antecedents": [
+        "Dal",
+        "Tomato"
+      ],
+      "consequents": [
+        "Rice"
+      ],
+      "support": 0.03,
+      "confidence": 0.5454545454545454,
+      "lift": 4.363636363636363
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Milk",
+        "Rice"
+      ],
+      "support": 0.04,
+      "confidence": 0.16666666666666669,
+      "lift": 4.166666666666667
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Butter",
+        "Eggs"
+      ],
+      "support": 0.04,
+      "confidence": 0.16666666666666669,
+      "lift": 4.166666666666667
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Rice"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.04,
+      "confidence": 1.0,
+      "lift": 4.166666666666667
+    },
+    {
+      "antecedents": [
+        "Butter",
+        "Eggs"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.04,
+      "confidence": 1.0,
+      "lift": 4.166666666666667
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Milk",
+        "Butter"
+      ],
+      "support": 0.045,
+      "confidence": 0.1875,
+      "lift": 4.166666666666667
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Butter"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.045,
+      "confidence": 1.0,
+      "lift": 4.166666666666667
+    },
+    {
+      "antecedents": [
+        "Chips",
+        "Chocolates"
+      ],
+      "consequents": [
+        "Soft Drinks"
+      ],
+      "support": 0.035,
+      "confidence": 0.6363636363636365,
+      "lift": 3.856749311294766
+    },
+    {
+      "antecedents": [
+        "Soft Drinks"
+      ],
+      "consequents": [
+        "Chips",
+        "Chocolates"
+      ],
+      "support": 0.035,
+      "confidence": 0.21212121212121213,
+      "lift": 3.8567493112947657
+    },
+    {
+      "antecedents": [
+        "Detergent"
+      ],
+      "consequents": [
+        "Dishwash"
+      ],
+      "support": 0.04,
+      "confidence": 0.36363636363636365,
+      "lift": 3.827751196172249
+    },
+    {
+      "antecedents": [
+        "Dishwash"
+      ],
+      "consequents": [
+        "Detergent"
+      ],
+      "support": 0.04,
+      "confidence": 0.42105263157894735,
+      "lift": 3.827751196172249
+    },
+    {
+      "antecedents": [
+        "Potato",
+        "Tomato"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.035,
+      "confidence": 0.7000000000000001,
+      "lift": 3.783783783783784
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Potato",
+        "Tomato"
+      ],
+      "support": 0.035,
+      "confidence": 0.1891891891891892,
+      "lift": 3.7837837837837838
+    },
+    {
+      "antecedents": [
+        "Soft Drinks",
+        "Chocolates"
+      ],
+      "consequents": [
+        "Chips"
+      ],
+      "support": 0.035,
+      "confidence": 0.6363636363636365,
+      "lift": 3.636363636363637
+    },
+    {
+      "antecedents": [
+        "Chips"
+      ],
+      "consequents": [
+        "Soft Drinks",
+        "Chocolates"
+      ],
+      "support": 0.035,
+      "confidence": 0.20000000000000004,
+      "lift": 3.636363636363637
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Sugar"
+      ],
+      "consequents": [
+        "Coffee"
+      ],
+      "support": 0.04,
+      "confidence": 0.36363636363636365,
+      "lift": 3.6363636363636362
+    },
+    {
+      "antecedents": [
+        "Coffee"
+      ],
+      "consequents": [
+        "Milk",
+        "Sugar"
+      ],
+      "support": 0.04,
+      "confidence": 0.39999999999999997,
+      "lift": 3.6363636363636362
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Coffee"
+      ],
+      "support": 0.065,
+      "confidence": 0.36111111111111116,
+      "lift": 3.6111111111111116
+    },
+    {
+      "antecedents": [
+        "Coffee"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.065,
+      "confidence": 0.65,
+      "lift": 3.611111111111111
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Dal",
+        "Rice"
+      ],
+      "support": 0.03,
+      "confidence": 0.16216216216216217,
+      "lift": 3.603603603603604
+    },
+    {
+      "antecedents": [
+        "Dal",
+        "Rice"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.03,
+      "confidence": 0.6666666666666666,
+      "lift": 3.6036036036036037
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Onion"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.03,
+      "confidence": 0.857142857142857,
+      "lift": 3.5714285714285707
+    },
+    {
+      "antecedents": [
+        "Coffee",
+        "Milk"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.04,
+      "confidence": 0.6153846153846154,
+      "lift": 3.418803418803419
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Coffee",
+        "Milk"
+      ],
+      "support": 0.04,
+      "confidence": 0.22222222222222224,
+      "lift": 3.418803418803419
+    },
+    {
+      "antecedents": [
+        "Chips"
+      ],
+      "consequents": [
+        "Soft Drinks"
+      ],
+      "support": 0.095,
+      "confidence": 0.5428571428571429,
+      "lift": 3.29004329004329
+    },
+    {
+      "antecedents": [
+        "Soft Drinks"
+      ],
+      "consequents": [
+        "Chips"
+      ],
+      "support": 0.095,
+      "confidence": 0.5757575757575757,
+      "lift": 3.2900432900432897
+    },
+    {
+      "antecedents": [
+        "Soap"
+      ],
+      "consequents": [
+        "Toothpaste"
+      ],
+      "support": 0.045,
+      "confidence": 0.47368421052631576,
+      "lift": 3.266787658802178
+    },
+    {
+      "antecedents": [
+        "Toothpaste"
+      ],
+      "consequents": [
+        "Soap"
+      ],
+      "support": 0.045,
+      "confidence": 0.3103448275862069,
+      "lift": 3.266787658802178
+    },
+    {
+      "antecedents": [
+        "Banana"
+      ],
+      "consequents": [
+        "Apple"
+      ],
+      "support": 0.05,
+      "confidence": 0.38461538461538464,
+      "lift": 3.2051282051282053
+    },
+    {
+      "antecedents": [
+        "Apple"
+      ],
+      "consequents": [
+        "Banana"
+      ],
+      "support": 0.05,
+      "confidence": 0.4166666666666667,
+      "lift": 3.2051282051282053
+    },
+    {
+      "antecedents": [
+        "Chips",
+        "Soft Drinks"
+      ],
+      "consequents": [
+        "Chocolates"
+      ],
+      "support": 0.035,
+      "confidence": 0.368421052631579,
+      "lift": 3.2036613272311216
+    },
+    {
+      "antecedents": [
+        "Chocolates"
+      ],
+      "consequents": [
+        "Chips",
+        "Soft Drinks"
+      ],
+      "support": 0.035,
+      "confidence": 0.30434782608695654,
+      "lift": 3.2036613272311216
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Butter"
+      ],
+      "support": 0.08,
+      "confidence": 0.33333333333333337,
+      "lift": 3.174603174603175
+    },
+    {
+      "antecedents": [
+        "Butter"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.08,
+      "confidence": 0.761904761904762,
+      "lift": 3.174603174603175
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Milk",
+        "Biscuits"
+      ],
+      "support": 0.04,
+      "confidence": 0.2857142857142857,
+      "lift": 3.1746031746031744
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Biscuits"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.04,
+      "confidence": 0.4444444444444445,
+      "lift": 3.1746031746031744
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Onion"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 1.0,
+      "lift": 3.1746031746031744
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Cheese"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.03,
+      "confidence": 0.75,
+      "lift": 3.125
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Milk"
+      ],
+      "consequents": [
+        "Butter"
+      ],
+      "support": 0.045,
+      "confidence": 0.3103448275862069,
+      "lift": 2.9556650246305423
+    },
+    {
+      "antecedents": [
+        "Butter"
+      ],
+      "consequents": [
+        "Bread",
+        "Milk"
+      ],
+      "support": 0.045,
+      "confidence": 0.42857142857142855,
+      "lift": 2.955665024630542
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Dal",
+        "Tomato"
+      ],
+      "support": 0.03,
+      "confidence": 0.16216216216216217,
+      "lift": 2.9484029484029484
+    },
+    {
+      "antecedents": [
+        "Dal",
+        "Tomato"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.03,
+      "confidence": 0.5454545454545454,
+      "lift": 2.9484029484029484
+    },
+    {
+      "antecedents": [
+        "Banana"
+      ],
+      "consequents": [
+        "Curd"
+      ],
+      "support": 0.04,
+      "confidence": 0.3076923076923077,
+      "lift": 2.9304029304029307
+    },
+    {
+      "antecedents": [
+        "Curd"
+      ],
+      "consequents": [
+        "Banana"
+      ],
+      "support": 0.04,
+      "confidence": 0.380952380952381,
+      "lift": 2.9304029304029307
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Milk",
+        "Sugar"
+      ],
+      "support": 0.045,
+      "confidence": 0.3214285714285714,
+      "lift": 2.922077922077922
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Sugar"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.045,
+      "confidence": 0.40909090909090906,
+      "lift": 2.9220779220779214
+    },
+    {
+      "antecedents": [
+        "Soft Drinks"
+      ],
+      "consequents": [
+        "Chocolates"
+      ],
+      "support": 0.055,
+      "confidence": 0.3333333333333333,
+      "lift": 2.8985507246376807
+    },
+    {
+      "antecedents": [
+        "Chocolates"
+      ],
+      "consequents": [
+        "Soft Drinks"
+      ],
+      "support": 0.055,
+      "confidence": 0.47826086956521735,
+      "lift": 2.8985507246376807
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Dal"
+      ],
+      "support": 0.045,
+      "confidence": 0.36,
+      "lift": 2.88
+    },
+    {
+      "antecedents": [
+        "Dal"
+      ],
+      "consequents": [
+        "Rice"
+      ],
+      "support": 0.045,
+      "confidence": 0.36,
+      "lift": 2.88
+    },
+    {
+      "antecedents": [
+        "Dal",
+        "Onion"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.03,
+      "confidence": 0.6666666666666666,
+      "lift": 2.8368794326241136
+    },
+    {
+      "antecedents": [
+        "Dal",
+        "Rice"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.03,
+      "confidence": 0.6666666666666666,
+      "lift": 2.8368794326241136
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Rice"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.04,
+      "confidence": 0.888888888888889,
+      "lift": 2.8218694885361555
+    },
+    {
+      "antecedents": [
+        "Biscuits",
+        "Tea"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.04,
+      "confidence": 0.888888888888889,
+      "lift": 2.8218694885361555
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Sugar"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.04,
+      "confidence": 0.888888888888889,
+      "lift": 2.8218694885361555
+    },
+    {
+      "antecedents": [
+        "Floor Cleaner"
+      ],
+      "consequents": [
+        "Potato"
+      ],
+      "support": 0.045,
+      "confidence": 0.40909090909090906,
+      "lift": 2.8213166144200628
+    },
+    {
+      "antecedents": [
+        "Potato"
+      ],
+      "consequents": [
+        "Floor Cleaner"
+      ],
+      "support": 0.045,
+      "confidence": 0.3103448275862069,
+      "lift": 2.8213166144200628
+    },
+    {
+      "antecedents": [
+        "Chips"
+      ],
+      "consequents": [
+        "Chocolates"
+      ],
+      "support": 0.055,
+      "confidence": 0.31428571428571433,
+      "lift": 2.7329192546583854
+    },
+    {
+      "antecedents": [
+        "Chocolates"
+      ],
+      "consequents": [
+        "Chips"
+      ],
+      "support": 0.055,
+      "confidence": 0.47826086956521735,
+      "lift": 2.732919254658385
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Tea"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.857142857142857,
+      "lift": 2.721088435374149
+    },
+    {
+      "antecedents": [
+        "Potato",
+        "Onion"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.035,
+      "confidence": 0.6363636363636365,
+      "lift": 2.707930367504836
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Cheese"
+      ],
+      "support": 0.06,
+      "confidence": 0.25,
+      "lift": 2.6315789473684212
+    },
+    {
+      "antecedents": [
+        "Cheese"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.06,
+      "confidence": 0.631578947368421,
+      "lift": 2.631578947368421
+    },
+    {
+      "antecedents": [
+        "Tea",
+        "Sugar"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.045,
+      "confidence": 0.8181818181818181,
+      "lift": 2.5974025974025974
+    },
+    {
+      "antecedents": [
+        "Popcorn"
+      ],
+      "consequents": [
+        "Soft Drinks"
+      ],
+      "support": 0.03,
+      "confidence": 0.4285714285714285,
+      "lift": 2.597402597402597
+    },
+    {
+      "antecedents": [
+        "Soft Drinks"
+      ],
+      "consequents": [
+        "Popcorn"
+      ],
+      "support": 0.03,
+      "confidence": 0.1818181818181818,
+      "lift": 2.597402597402597
+    },
+    {
+      "antecedents": [
+        "Potato"
+      ],
+      "consequents": [
+        "Tomato",
+        "Onion"
+      ],
+      "support": 0.035,
+      "confidence": 0.24137931034482762,
+      "lift": 2.5408348457350276
+    },
+    {
+      "antecedents": [
+        "Tomato",
+        "Onion"
+      ],
+      "consequents": [
+        "Potato"
+      ],
+      "support": 0.035,
+      "confidence": 0.368421052631579,
+      "lift": 2.5408348457350276
+    },
+    {
+      "antecedents": [
+        "Dal"
+      ],
+      "consequents": [
+        "Tomato",
+        "Onion"
+      ],
+      "support": 0.03,
+      "confidence": 0.24,
+      "lift": 2.526315789473684
+    },
+    {
+      "antecedents": [
+        "Tomato",
+        "Onion"
+      ],
+      "consequents": [
+        "Dal"
+      ],
+      "support": 0.03,
+      "confidence": 0.3157894736842105,
+      "lift": 2.526315789473684
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Toothpaste"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.03,
+      "confidence": 0.6,
+      "lift": 2.5
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Milk",
+        "Tea"
+      ],
+      "support": 0.045,
+      "confidence": 0.25,
+      "lift": 2.5
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Tea"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.045,
+      "confidence": 0.44999999999999996,
+      "lift": 2.5
+    },
+    {
+      "antecedents": [
+        "Apple"
+      ],
+      "consequents": [
+        "Shampoo"
+      ],
+      "support": 0.03,
+      "confidence": 0.25,
+      "lift": 2.5
+    },
+    {
+      "antecedents": [
+        "Shampoo"
+      ],
+      "consequents": [
+        "Apple"
+      ],
+      "support": 0.03,
+      "confidence": 0.3,
+      "lift": 2.5
+    },
+    {
+      "antecedents": [
+        "Floor Cleaner"
+      ],
+      "consequents": [
+        "Cookies"
+      ],
+      "support": 0.03,
+      "confidence": 0.2727272727272727,
+      "lift": 2.4793388429752063
+    },
+    {
+      "antecedents": [
+        "Cookies"
+      ],
+      "consequents": [
+        "Floor Cleaner"
+      ],
+      "support": 0.03,
+      "confidence": 0.2727272727272727,
+      "lift": 2.4793388429752063
+    },
+    {
+      "antecedents": [
+        "Shampoo"
+      ],
+      "consequents": [
+        "Toothpaste"
+      ],
+      "support": 0.035,
+      "confidence": 0.35000000000000003,
+      "lift": 2.4137931034482762
+    },
+    {
+      "antecedents": [
+        "Toothpaste"
+      ],
+      "consequents": [
+        "Shampoo"
+      ],
+      "support": 0.035,
+      "confidence": 0.24137931034482762,
+      "lift": 2.4137931034482762
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Toothpaste"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.75,
+      "lift": 2.380952380952381
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Bread",
+        "Butter"
+      ],
+      "support": 0.04,
+      "confidence": 0.18181818181818182,
+      "lift": 2.272727272727273
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Butter"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.04,
+      "confidence": 0.5,
+      "lift": 2.272727272727273
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.1,
+      "confidence": 0.7142857142857143,
+      "lift": 2.2675736961451247
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.1,
+      "confidence": 0.3174603174603175,
+      "lift": 2.2675736961451247
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Eggs"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.035,
+      "confidence": 0.5384615384615385,
+      "lift": 2.243589743589744
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Bread",
+        "Milk"
+      ],
+      "support": 0.04,
+      "confidence": 0.32,
+      "lift": 2.2068965517241383
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Milk"
+      ],
+      "consequents": [
+        "Rice"
+      ],
+      "support": 0.04,
+      "confidence": 0.2758620689655173,
+      "lift": 2.2068965517241383
+    },
+    {
+      "antecedents": [
+        "Detergent"
+      ],
+      "consequents": [
+        "Potato"
+      ],
+      "support": 0.035,
+      "confidence": 0.31818181818181823,
+      "lift": 2.1943573667711602
+    },
+    {
+      "antecedents": [
+        "Potato"
+      ],
+      "consequents": [
+        "Detergent"
+      ],
+      "support": 0.035,
+      "confidence": 0.24137931034482762,
+      "lift": 2.1943573667711602
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.095,
+      "confidence": 0.5135135135135135,
+      "lift": 2.185163887291547
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.095,
+      "confidence": 0.4042553191489362,
+      "lift": 2.185163887291547
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.055,
+      "confidence": 0.39285714285714285,
+      "lift": 2.182539682539683
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.055,
+      "confidence": 0.3055555555555556,
+      "lift": 2.1825396825396823
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.045,
+      "confidence": 0.36,
+      "lift": 2.1818181818181817
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Rice"
+      ],
+      "support": 0.045,
+      "confidence": 0.2727272727272727,
+      "lift": 2.1818181818181817
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Milk"
+      ],
+      "consequents": [
+        "Cheese"
+      ],
+      "support": 0.03,
+      "confidence": 0.20689655172413793,
+      "lift": 2.1778584392014517
+    },
+    {
+      "antecedents": [
+        "Cheese"
+      ],
+      "consequents": [
+        "Bread",
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.3157894736842105,
+      "lift": 2.1778584392014517
+    },
+    {
+      "antecedents": [
+        "Potato"
+      ],
+      "consequents": [
+        "Dishwash"
+      ],
+      "support": 0.03,
+      "confidence": 0.20689655172413793,
+      "lift": 2.1778584392014517
+    },
+    {
+      "antecedents": [
+        "Dishwash"
+      ],
+      "consequents": [
+        "Potato"
+      ],
+      "support": 0.03,
+      "confidence": 0.3157894736842105,
+      "lift": 2.1778584392014517
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.05,
+      "confidence": 0.4,
+      "lift": 2.1621621621621623
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Rice"
+      ],
+      "support": 0.05,
+      "confidence": 0.2702702702702703,
+      "lift": 2.1621621621621623
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Milk",
+        "Biscuits"
+      ],
+      "support": 0.035,
+      "confidence": 0.19444444444444448,
+      "lift": 2.160493827160494
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Biscuits"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.035,
+      "confidence": 0.38888888888888895,
+      "lift": 2.160493827160494
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Tea"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.04,
+      "confidence": 0.39999999999999997,
+      "lift": 2.1052631578947367
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Milk",
+        "Tea"
+      ],
+      "support": 0.04,
+      "confidence": 0.21052631578947367,
+      "lift": 2.1052631578947367
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Coffee"
+      ],
+      "support": 0.065,
+      "confidence": 0.20634920634920637,
+      "lift": 2.0634920634920637
+    },
+    {
+      "antecedents": [
+        "Coffee"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.065,
+      "confidence": 0.65,
+      "lift": 2.0634920634920637
+    },
+    {
+      "antecedents": [
+        "Potato"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.055,
+      "confidence": 0.37931034482758624,
+      "lift": 2.050326188257223
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Potato"
+      ],
+      "support": 0.055,
+      "confidence": 0.2972972972972973,
+      "lift": 2.050326188257223
+    },
+    {
+      "antecedents": [
+        "Biscuits",
+        "Sugar"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.035,
+      "confidence": 0.6363636363636365,
+      "lift": 2.0202020202020203
+    },
+    {
+      "antecedents": [
+        "Soft Drinks"
+      ],
+      "consequents": [
+        "Namkeen"
+      ],
+      "support": 0.055,
+      "confidence": 0.3333333333333333,
+      "lift": 2.02020202020202
+    },
+    {
+      "antecedents": [
+        "Namkeen"
+      ],
+      "consequents": [
+        "Soft Drinks"
+      ],
+      "support": 0.055,
+      "confidence": 0.3333333333333333,
+      "lift": 2.02020202020202
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Cheese"
+      ],
+      "support": 0.045,
+      "confidence": 0.19148936170212766,
+      "lift": 2.015677491601344
+    },
+    {
+      "antecedents": [
+        "Cheese"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.045,
+      "confidence": 0.47368421052631576,
+      "lift": 2.015677491601344
+    },
+    {
+      "antecedents": [
+        "Coffee",
+        "Sugar"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.04,
+      "confidence": 0.6153846153846154,
+      "lift": 1.9536019536019538
+    },
+    {
+      "antecedents": [
+        "Dal"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.045,
+      "confidence": 0.36,
+      "lift": 1.9459459459459458
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Dal"
+      ],
+      "support": 0.045,
+      "confidence": 0.24324324324324323,
+      "lift": 1.9459459459459458
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.11,
+      "confidence": 0.6111111111111112,
+      "lift": 1.9400352733686068
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.11,
+      "confidence": 0.3492063492063492,
+      "lift": 1.9400352733686066
+    },
+    {
+      "antecedents": [
+        "Dal"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.04,
+      "confidence": 0.32,
+      "lift": 1.9393939393939394
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Dal"
+      ],
+      "support": 0.04,
+      "confidence": 0.24242424242424243,
+      "lift": 1.9393939393939394
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.145,
+      "confidence": 0.4603174603174603,
+      "lift": 1.917989417989418
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.145,
+      "confidence": 0.6041666666666666,
+      "lift": 1.917989417989418
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Biscuits"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.6,
+      "lift": 1.9047619047619047
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Dal"
+      ],
+      "support": 0.055,
+      "confidence": 0.23404255319148937,
+      "lift": 1.872340425531915
+    },
+    {
+      "antecedents": [
+        "Dal"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.055,
+      "confidence": 0.44,
+      "lift": 1.872340425531915
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Paneer"
+      ],
+      "support": 0.035,
+      "confidence": 0.1842105263157895,
+      "lift": 1.842105263157895
+    },
+    {
+      "antecedents": [
+        "Paneer"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.035,
+      "confidence": 0.35000000000000003,
+      "lift": 1.842105263157895
+    },
+    {
+      "antecedents": [
+        "Coffee"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.03,
+      "confidence": 0.3,
+      "lift": 1.8181818181818181
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Coffee"
+      ],
+      "support": 0.03,
+      "confidence": 0.1818181818181818,
+      "lift": 1.818181818181818
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Butter"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.045,
+      "confidence": 0.5625,
+      "lift": 1.7857142857142858
+    },
+    {
+      "antecedents": [
+        "Mineral Water"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.03,
+      "confidence": 0.25,
+      "lift": 1.7857142857142856
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Mineral Water"
+      ],
+      "support": 0.03,
+      "confidence": 0.21428571428571425,
+      "lift": 1.7857142857142854
+    },
+    {
+      "antecedents": [
+        "Mineral Water"
+      ],
+      "consequents": [
+        "Soft Drinks"
+      ],
+      "support": 0.035,
+      "confidence": 0.2916666666666667,
+      "lift": 1.7676767676767677
+    },
+    {
+      "antecedents": [
+        "Soft Drinks"
+      ],
+      "consequents": [
+        "Mineral Water"
+      ],
+      "support": 0.035,
+      "confidence": 0.21212121212121213,
+      "lift": 1.7676767676767677
+    },
+    {
+      "antecedents": [
+        "Butter"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.04,
+      "confidence": 0.380952380952381,
+      "lift": 1.7316017316017318
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Butter"
+      ],
+      "support": 0.04,
+      "confidence": 0.18181818181818182,
+      "lift": 1.7316017316017318
+    },
+    {
+      "antecedents": [
+        "Namkeen"
+      ],
+      "consequents": [
+        "Chips"
+      ],
+      "support": 0.05,
+      "confidence": 0.30303030303030304,
+      "lift": 1.7316017316017318
+    },
+    {
+      "antecedents": [
+        "Chips"
+      ],
+      "consequents": [
+        "Namkeen"
+      ],
+      "support": 0.05,
+      "confidence": 0.28571428571428575,
+      "lift": 1.7316017316017318
+    },
+    {
+      "antecedents": [
+        "Potato"
+      ],
+      "consequents": [
+        "Mineral Water"
+      ],
+      "support": 0.03,
+      "confidence": 0.20689655172413793,
+      "lift": 1.7241379310344829
+    },
+    {
+      "antecedents": [
+        "Mineral Water"
+      ],
+      "consequents": [
+        "Potato"
+      ],
+      "support": 0.03,
+      "confidence": 0.25,
+      "lift": 1.7241379310344829
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Shampoo"
+      ],
+      "support": 0.04,
+      "confidence": 0.17021276595744683,
+      "lift": 1.7021276595744683
+    },
+    {
+      "antecedents": [
+        "Shampoo"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.04,
+      "confidence": 0.39999999999999997,
+      "lift": 1.702127659574468
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.045,
+      "confidence": 0.23684210526315788,
+      "lift": 1.6917293233082704
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.045,
+      "confidence": 0.3214285714285714,
+      "lift": 1.6917293233082704
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Cheese"
+      ],
+      "support": 0.035,
+      "confidence": 0.15909090909090912,
+      "lift": 1.6746411483253592
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Sugar"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.035,
+      "confidence": 0.31818181818181823,
+      "lift": 1.6746411483253592
+    },
+    {
+      "antecedents": [
+        "Cheese"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.035,
+      "confidence": 0.368421052631579,
+      "lift": 1.674641148325359
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Milk",
+        "Sugar"
+      ],
+      "support": 0.035,
+      "confidence": 0.1842105263157895,
+      "lift": 1.674641148325359
+    },
+    {
+      "antecedents": [
+        "Curd"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.055,
+      "confidence": 0.5238095238095238,
+      "lift": 1.6628873771730914
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Curd"
+      ],
+      "support": 0.055,
+      "confidence": 0.1746031746031746,
+      "lift": 1.6628873771730914
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Cheese"
+      ],
+      "support": 0.03,
+      "confidence": 0.15789473684210525,
+      "lift": 1.6620498614958448
+    },
+    {
+      "antecedents": [
+        "Cheese"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.03,
+      "confidence": 0.3157894736842105,
+      "lift": 1.6620498614958448
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Cookies"
+      ],
+      "support": 0.03,
+      "confidence": 0.1818181818181818,
+      "lift": 1.652892561983471
+    },
+    {
+      "antecedents": [
+        "Cookies"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.03,
+      "confidence": 0.2727272727272727,
+      "lift": 1.652892561983471
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.05,
+      "confidence": 0.30303030303030304,
+      "lift": 1.638001638001638
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.05,
+      "confidence": 0.2702702702702703,
+      "lift": 1.638001638001638
+    },
+    {
+      "antecedents": [
+        "Banana"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.035,
+      "confidence": 0.2692307692307693,
+      "lift": 1.631701631701632
+    },
+    {
+      "antecedents": [
+        "Wheat Flour"
+      ],
+      "consequents": [
+        "Soft Drinks"
+      ],
+      "support": 0.035,
+      "confidence": 0.2692307692307693,
+      "lift": 1.631701631701632
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Banana"
+      ],
+      "support": 0.035,
+      "confidence": 0.21212121212121213,
+      "lift": 1.6317016317016317
+    },
+    {
+      "antecedents": [
+        "Soft Drinks"
+      ],
+      "consequents": [
+        "Wheat Flour"
+      ],
+      "support": 0.035,
+      "confidence": 0.21212121212121213,
+      "lift": 1.6317016317016317
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.085,
+      "confidence": 0.3863636363636364,
+      "lift": 1.609848484848485
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.085,
+      "confidence": 0.3541666666666667,
+      "lift": 1.6098484848484849
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.055,
+      "confidence": 0.3055555555555556,
+      "lift": 1.6081871345029242
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.055,
+      "confidence": 0.2894736842105263,
+      "lift": 1.6081871345029242
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Chocolates"
+      ],
+      "support": 0.035,
+      "confidence": 0.1842105263157895,
+      "lift": 1.6018306636155608
+    },
+    {
+      "antecedents": [
+        "Chocolates"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.035,
+      "confidence": 0.30434782608695654,
+      "lift": 1.6018306636155608
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Paneer"
+      ],
+      "support": 0.035,
+      "confidence": 0.15909090909090912,
+      "lift": 1.590909090909091
+    },
+    {
+      "antecedents": [
+        "Paneer"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.035,
+      "confidence": 0.35000000000000003,
+      "lift": 1.590909090909091
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Banana"
+      ],
+      "support": 0.065,
+      "confidence": 0.20634920634920637,
+      "lift": 1.5873015873015874
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Apple"
+      ],
+      "support": 0.06,
+      "confidence": 0.19047619047619047,
+      "lift": 1.5873015873015872
+    },
+    {
+      "antecedents": [
+        "Apple"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.06,
+      "confidence": 0.5,
+      "lift": 1.5873015873015872
+    },
+    {
+      "antecedents": [
+        "Banana"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.065,
+      "confidence": 0.5,
+      "lift": 1.5873015873015872
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Cheese"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.5,
+      "lift": 1.5873015873015872
+    },
+    {
+      "antecedents": [
+        "Chocolates"
+      ],
+      "consequents": [
+        "Namkeen"
+      ],
+      "support": 0.03,
+      "confidence": 0.2608695652173913,
+      "lift": 1.5810276679841897
+    },
+    {
+      "antecedents": [
+        "Namkeen"
+      ],
+      "consequents": [
+        "Chocolates"
+      ],
+      "support": 0.03,
+      "confidence": 0.1818181818181818,
+      "lift": 1.5810276679841895
+    },
+    {
+      "antecedents": [
+        "Shampoo"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.03,
+      "confidence": 0.3,
+      "lift": 1.5789473684210527
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Shampoo"
+      ],
+      "support": 0.03,
+      "confidence": 0.15789473684210525,
+      "lift": 1.5789473684210524
+    },
+    {
+      "antecedents": [
+        "Chips"
+      ],
+      "consequents": [
+        "Toothpaste"
+      ],
+      "support": 0.04,
+      "confidence": 0.2285714285714286,
+      "lift": 1.576354679802956
+    },
+    {
+      "antecedents": [
+        "Toothpaste"
+      ],
+      "consequents": [
+        "Chips"
+      ],
+      "support": 0.04,
+      "confidence": 0.2758620689655173,
+      "lift": 1.576354679802956
+    },
+    {
+      "antecedents": [
+        "Soap"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.035,
+      "confidence": 0.368421052631579,
+      "lift": 1.5677491601343787
+    },
+    {
+      "antecedents": [
+        "Floor Cleaner"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.04,
+      "confidence": 0.36363636363636365,
+      "lift": 1.5473887814313347
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Floor Cleaner"
+      ],
+      "support": 0.04,
+      "confidence": 0.17021276595744683,
+      "lift": 1.5473887814313347
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.06,
+      "confidence": 0.3636363636363636,
+      "lift": 1.5473887814313345
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.06,
+      "confidence": 0.2553191489361702,
+      "lift": 1.5473887814313345
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Milk"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.04,
+      "confidence": 0.2758620689655173,
+      "lift": 1.5325670498084294
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Bread",
+        "Milk"
+      ],
+      "support": 0.04,
+      "confidence": 0.22222222222222224,
+      "lift": 1.5325670498084294
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.045,
+      "confidence": 0.36,
+      "lift": 1.5319148936170213
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Rice"
+      ],
+      "support": 0.045,
+      "confidence": 0.19148936170212766,
+      "lift": 1.5319148936170213
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Milk",
+        "Sugar"
+      ],
+      "support": 0.04,
+      "confidence": 0.16666666666666669,
+      "lift": 1.5151515151515154
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Sugar"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.04,
+      "confidence": 0.36363636363636365,
+      "lift": 1.5151515151515154
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.035,
+      "confidence": 0.25,
+      "lift": 1.5151515151515151
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.035,
+      "confidence": 0.21212121212121213,
+      "lift": 1.5151515151515151
+    },
+    {
+      "antecedents": [
+        "Mineral Water"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.03,
+      "confidence": 0.25,
+      "lift": 1.5151515151515151
+    },
+    {
+      "antecedents": [
+        "Cookies"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.03,
+      "confidence": 0.2727272727272727,
+      "lift": 1.5151515151515151
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Cookies"
+      ],
+      "support": 0.03,
+      "confidence": 0.16666666666666666,
+      "lift": 1.5151515151515151
+    },
+    {
+      "antecedents": [
+        "Apple"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.03,
+      "confidence": 0.25,
+      "lift": 1.5151515151515151
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Mineral Water"
+      ],
+      "support": 0.03,
+      "confidence": 0.1818181818181818,
+      "lift": 1.515151515151515
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Apple"
+      ],
+      "support": 0.03,
+      "confidence": 0.1818181818181818,
+      "lift": 1.515151515151515
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.09,
+      "confidence": 0.47368421052631576,
+      "lift": 1.5037593984962405
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Curd"
+      ],
+      "support": 0.03,
+      "confidence": 0.15789473684210525,
+      "lift": 1.5037593984962405
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.09,
+      "confidence": 0.2857142857142857,
+      "lift": 1.5037593984962405
+    },
+    {
+      "antecedents": [
+        "Curd"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.03,
+      "confidence": 0.2857142857142857,
+      "lift": 1.5037593984962405
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Rice"
+      ],
+      "support": 0.045,
+      "confidence": 0.1875,
+      "lift": 1.5
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.045,
+      "confidence": 0.36,
+      "lift": 1.5
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Milk"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.03,
+      "confidence": 0.20689655172413793,
+      "lift": 1.4778325123152707
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Bread",
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.21428571428571425,
+      "lift": 1.4778325123152707
+    },
+    {
+      "antecedents": [
+        "Floor Cleaner"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.03,
+      "confidence": 0.2727272727272727,
+      "lift": 1.4742014742014742
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Floor Cleaner"
+      ],
+      "support": 0.03,
+      "confidence": 0.16216216216216217,
+      "lift": 1.4742014742014742
+    },
+    {
+      "antecedents": [
+        "Potato"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.05,
+      "confidence": 0.3448275862068966,
+      "lift": 1.4673514306676452
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Potato"
+      ],
+      "support": 0.05,
+      "confidence": 0.21276595744680854,
+      "lift": 1.4673514306676452
+    },
+    {
+      "antecedents": [
+        "Toothpaste"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.04,
+      "confidence": 0.2758620689655173,
+      "lift": 1.4519056261343015
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Toothpaste"
+      ],
+      "support": 0.04,
+      "confidence": 0.21052631578947367,
+      "lift": 1.4519056261343013
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Namkeen"
+      ],
+      "support": 0.045,
+      "confidence": 0.23684210526315788,
+      "lift": 1.4354066985645932
+    },
+    {
+      "antecedents": [
+        "Namkeen"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.045,
+      "confidence": 0.2727272727272727,
+      "lift": 1.4354066985645932
+    },
+    {
+      "antecedents": [
+        "Mineral Water"
+      ],
+      "consequents": [
+        "Chips"
+      ],
+      "support": 0.03,
+      "confidence": 0.25,
+      "lift": 1.4285714285714286
+    },
+    {
+      "antecedents": [
+        "Chips"
+      ],
+      "consequents": [
+        "Mineral Water"
+      ],
+      "support": 0.03,
+      "confidence": 0.17142857142857143,
+      "lift": 1.4285714285714286
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Milk"
+      ],
+      "consequents": [
+        "Toothpaste"
+      ],
+      "support": 0.03,
+      "confidence": 0.20689655172413793,
+      "lift": 1.4268727705112962
+    },
+    {
+      "antecedents": [
+        "Toothpaste"
+      ],
+      "consequents": [
+        "Bread",
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.20689655172413793,
+      "lift": 1.4268727705112962
+    },
+    {
+      "antecedents": [
+        "Banana"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.04,
+      "confidence": 0.3076923076923077,
+      "lift": 1.3986013986013988
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Banana"
+      ],
+      "support": 0.04,
+      "confidence": 0.18181818181818182,
+      "lift": 1.3986013986013985
+    },
+    {
+      "antecedents": [
+        "Curd"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.035,
+      "confidence": 0.33333333333333337,
+      "lift": 1.388888888888889
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Biscuits"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.03,
+      "confidence": 0.3333333333333333,
+      "lift": 1.3888888888888888
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.05,
+      "confidence": 0.2272727272727273,
+      "lift": 1.3774104683195594
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.05,
+      "confidence": 0.30303030303030304,
+      "lift": 1.3774104683195592
+    },
+    {
+      "antecedents": [
+        "Coffee"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.03,
+      "confidence": 0.3,
+      "lift": 1.3636363636363635
+    },
+    {
+      "antecedents": [
+        "Butter"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.045,
+      "confidence": 0.42857142857142855,
+      "lift": 1.3605442176870748
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.04,
+      "confidence": 0.22222222222222224,
+      "lift": 1.3468013468013469
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.04,
+      "confidence": 0.24242424242424243,
+      "lift": 1.3468013468013469
+    },
+    {
+      "antecedents": [
+        "Cheese"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.04,
+      "confidence": 0.42105263157894735,
+      "lift": 1.3366750208855471
+    },
+    {
+      "antecedents": [
+        "Apple"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.03,
+      "confidence": 0.25,
+      "lift": 1.3157894736842106
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Apple"
+      ],
+      "support": 0.03,
+      "confidence": 0.15789473684210525,
+      "lift": 1.3157894736842104
+    },
+    {
+      "antecedents": [
+        "Wheat Flour"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.04,
+      "confidence": 0.3076923076923077,
+      "lift": 1.309328968903437
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Wheat Flour"
+      ],
+      "support": 0.04,
+      "confidence": 0.17021276595744683,
+      "lift": 1.309328968903437
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Eggs"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.035,
+      "confidence": 0.411764705882353,
+      "lift": 1.3071895424836601
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.04,
+      "confidence": 0.2857142857142857,
+      "lift": 1.2987012987012987
+    },
+    {
+      "antecedents": [
+        "Curd"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.03,
+      "confidence": 0.2857142857142857,
+      "lift": 1.2987012987012987
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.04,
+      "confidence": 0.18181818181818182,
+      "lift": 1.2987012987012987
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Namkeen"
+      ],
+      "support": 0.03,
+      "confidence": 0.21428571428571425,
+      "lift": 1.2987012987012985
+    },
+    {
+      "antecedents": [
+        "Namkeen"
+      ],
+      "consequents": [
+        "Tea"
+      ],
+      "support": 0.03,
+      "confidence": 0.1818181818181818,
+      "lift": 1.2987012987012985
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Banana"
+      ],
+      "support": 0.03,
+      "confidence": 0.16666666666666666,
+      "lift": 1.282051282051282
+    },
+    {
+      "antecedents": [
+        "Banana"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.03,
+      "confidence": 0.23076923076923075,
+      "lift": 1.282051282051282
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.035,
+      "confidence": 0.28,
+      "lift": 1.272727272727273
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Rice"
+      ],
+      "support": 0.035,
+      "confidence": 0.15909090909090912,
+      "lift": 1.272727272727273
+    },
+    {
+      "antecedents": [
+        "Tomato"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.065,
+      "confidence": 0.2765957446808511,
+      "lift": 1.2572533849129595
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.065,
+      "confidence": 0.29545454545454547,
+      "lift": 1.2572533849129595
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Namkeen"
+      ],
+      "support": 0.065,
+      "confidence": 0.20634920634920637,
+      "lift": 1.2506012506012507
+    },
+    {
+      "antecedents": [
+        "Namkeen"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.065,
+      "confidence": 0.3939393939393939,
+      "lift": 1.2506012506012505
+    },
+    {
+      "antecedents": [
+        "Milk",
+        "Tea"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.03,
+      "confidence": 0.3,
+      "lift": 1.25
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Banana"
+      ],
+      "support": 0.03,
+      "confidence": 0.16216216216216217,
+      "lift": 1.2474012474012475
+    },
+    {
+      "antecedents": [
+        "Banana"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.03,
+      "confidence": 0.23076923076923075,
+      "lift": 1.2474012474012472
+    },
+    {
+      "antecedents": [
+        "Chocolates"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.045,
+      "confidence": 0.3913043478260869,
+      "lift": 1.2422360248447204
+    },
+    {
+      "antecedents": [
+        "Banana"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.03,
+      "confidence": 0.23076923076923075,
+      "lift": 1.214574898785425
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Banana"
+      ],
+      "support": 0.03,
+      "confidence": 0.15789473684210525,
+      "lift": 1.214574898785425
+    },
+    {
+      "antecedents": [
+        "Chocolates"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.03,
+      "confidence": 0.2608695652173913,
+      "lift": 1.1857707509881423
+    },
+    {
+      "antecedents": [
+        "Cookies"
+      ],
+      "consequents": [
+        "Tomato"
+      ],
+      "support": 0.03,
+      "confidence": 0.2727272727272727,
+      "lift": 1.1605415860735009
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Cooking Oil"
+      ],
+      "support": 0.06,
+      "confidence": 0.19047619047619047,
+      "lift": 1.1544011544011543
+    },
+    {
+      "antecedents": [
+        "Cooking Oil"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.06,
+      "confidence": 0.3636363636363636,
+      "lift": 1.1544011544011543
+    },
+    {
+      "antecedents": [
+        "Toothpaste"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.04,
+      "confidence": 0.2758620689655173,
+      "lift": 1.149425287356322
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Toothpaste"
+      ],
+      "support": 0.04,
+      "confidence": 0.16666666666666669,
+      "lift": 1.149425287356322
+    },
+    {
+      "antecedents": [
+        "Potato"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.03,
+      "confidence": 0.20689655172413793,
+      "lift": 1.1494252873563218
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Potato"
+      ],
+      "support": 0.03,
+      "confidence": 0.16666666666666666,
+      "lift": 1.1494252873563218
+    },
+    {
+      "antecedents": [
+        "Apple"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.03,
+      "confidence": 0.25,
+      "lift": 1.1363636363636365
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Bread",
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.16216216216216217,
+      "lift": 1.1183597390493945
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Milk"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.03,
+      "confidence": 0.20689655172413793,
+      "lift": 1.1183597390493942
+    },
+    {
+      "antecedents": [
+        "Onion"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.045,
+      "confidence": 0.24324324324324323,
+      "lift": 1.1056511056511056
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Onion"
+      ],
+      "support": 0.045,
+      "confidence": 0.20454545454545453,
+      "lift": 1.1056511056511056
+    },
+    {
+      "antecedents": [
+        "Eggs"
+      ],
+      "consequents": [
+        "Bread",
+        "Milk"
+      ],
+      "support": 0.035,
+      "confidence": 0.15909090909090912,
+      "lift": 1.0971786833855801
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Milk"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.035,
+      "confidence": 0.24137931034482762,
+      "lift": 1.0971786833855801
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.05,
+      "confidence": 0.2631578947368421,
+      "lift": 1.0964912280701755
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.05,
+      "confidence": 0.20833333333333334,
+      "lift": 1.0964912280701755
+    },
+    {
+      "antecedents": [
+        "Milk"
+      ],
+      "consequents": [
+        "Toothpaste"
+      ],
+      "support": 0.05,
+      "confidence": 0.15873015873015875,
+      "lift": 1.094690749863164
+    },
+    {
+      "antecedents": [
+        "Toothpaste"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.05,
+      "confidence": 0.3448275862068966,
+      "lift": 1.0946907498631637
+    },
+    {
+      "antecedents": [
+        "Dal"
+      ],
+      "consequents": [
+        "Eggs"
+      ],
+      "support": 0.03,
+      "confidence": 0.24,
+      "lift": 1.0909090909090908
+    },
+    {
+      "antecedents": [
+        "Bread",
+        "Milk"
+      ],
+      "consequents": [
+        "Biscuits"
+      ],
+      "support": 0.03,
+      "confidence": 0.20689655172413793,
+      "lift": 1.0889292196007259
+    },
+    {
+      "antecedents": [
+        "Biscuits"
+      ],
+      "consequents": [
+        "Bread",
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.15789473684210525,
+      "lift": 1.0889292196007259
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.045,
+      "confidence": 0.25,
+      "lift": 1.0416666666666667
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.045,
+      "confidence": 0.1875,
+      "lift": 1.0416666666666667
+    },
+    {
+      "antecedents": [
+        "Apple"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.03,
+      "confidence": 0.25,
+      "lift": 1.0416666666666667
+    },
+    {
+      "antecedents": [
+        "Tea"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.035,
+      "confidence": 0.25,
+      "lift": 1.0416666666666667
+    },
+    {
+      "antecedents": [
+        "Rice"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.04,
+      "confidence": 0.32,
+      "lift": 1.0158730158730158
+    },
+    {
+      "antecedents": [
+        "Bread"
+      ],
+      "consequents": [
+        "Namkeen"
+      ],
+      "support": 0.04,
+      "confidence": 0.16666666666666669,
+      "lift": 1.0101010101010102
+    },
+    {
+      "antecedents": [
+        "Detergent"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.035,
+      "confidence": 0.31818181818181823,
+      "lift": 1.0101010101010102
+    },
+    {
+      "antecedents": [
+        "Namkeen"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.04,
+      "confidence": 0.24242424242424243,
+      "lift": 1.0101010101010102
+    },
+    {
+      "antecedents": [
+        "Namkeen"
+      ],
+      "consequents": [
+        "Sugar"
+      ],
+      "support": 0.03,
+      "confidence": 0.1818181818181818,
+      "lift": 1.01010101010101
+    },
+    {
+      "antecedents": [
+        "Sugar"
+      ],
+      "consequents": [
+        "Namkeen"
+      ],
+      "support": 0.03,
+      "confidence": 0.16666666666666666,
+      "lift": 1.01010101010101
+    },
+    {
+      "antecedents": [
+        "Potato"
+      ],
+      "consequents": [
+        "Bread"
+      ],
+      "support": 0.035,
+      "confidence": 0.24137931034482762,
+      "lift": 1.0057471264367819
+    },
+    {
+      "antecedents": [
+        "Dishwash"
+      ],
+      "consequents": [
+        "Milk"
+      ],
+      "support": 0.03,
+      "confidence": 0.3157894736842105,
+      "lift": 1.0025062656641603
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Core dependencies
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Market Basket Analysis
+mlxtend>=0.22.0
+scipy>=1.10.0
+
+# Database
+pymongo>=4.5.0
+# mysql-connector-python>=8.1.0  # Uncomment for MySQL
+
+# Caching (optional)
+redis>=4.6.0
+
+# Scheduling
+schedule>=1.2.0
+
+# Utilities
+python-multipart>=0.0.6
+python-dotenv>=1.0.0
+
+# Development
+pytest>=7.4.0
+httpx>=0.24.0
